@@ -51,7 +51,7 @@ sub_list = ['announcements', 'funny', 'AskReddit', 'gaming', 'Music', 'science',
             'conspiracy', 'math', 'MachineLearning', 'worldpolitics',
             'Health', 'investing']
 
-reddit.subreddit("all").hot()
+# reddit.subreddit("all").hot()
 
 # for subreddit in reddit.subreddits.popular(limit=200):
 for name in sub_list:
