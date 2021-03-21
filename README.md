@@ -1,5 +1,9 @@
 # SubReddit Recommender
 This project takes a text as a string or multiple texts in an iterable format such as ndarray or list, and returns a list of recommended Subreddit categories from a list of categories that the model is trained on.
+### Virtual environment
+This project uses conda as virtual environment. To see a list of conda env enter `conda env list`. To activate env for this project with all the necessary packages use `conda activate SubReddit`. To see the list of installed ipykernels use: `jupyter kernelspec list`. 
+After activating the environment launch jupyter lab with `jupyter lab`, and make sure to select `subreddit` kernel from the pull down menu.
+
 Here is a list of files related to the project:
 1. praw_db.py:
 Connects to PRAW python API for Reddit. Pulls some information from 1000 posts in each of the 44 selected subreddit categories.
